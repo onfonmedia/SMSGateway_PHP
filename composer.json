@@ -1,0 +1,31 @@
+{
+    "name": "apimatic/onfonmediasmsgateway",
+    "type": "library",
+    "description": "Send SMS with Onfon Media SMS Platform.",
+    "keywords": ["OnfonMedia SMS Gateway","API","SDK"],
+    "homepage": "onfonmedia.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timothy Wahome",
+            "email": "twahome@onfonmedia.com",
+            "homepage": "onfonmedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "mashape/unirest-php": "~3.0.1",
+        "apimatic/jsonmapper": "~1.3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "OnfonMediaSMSGatewayLib\\": "src/"
+        }
+    }
+}
